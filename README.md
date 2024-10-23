@@ -11,11 +11,11 @@ Esta aplicación será web, por lo que usaremos un stack MERN. Planeamos usar Mo
 ## Commands
 
 Para instalar dependencias:
-<br>
+</br>
 `npm install`
-<br>
+</br>
 Para correr el programa en modo aplicación:
 `npm run tauri dev`
-<br>
+</br>
 Para correr el programa en modo navegador:
 `npm run dev`
