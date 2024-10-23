@@ -15,7 +15,9 @@ Para instalar dependencias:
 `npm install`
 </br>
 Para correr el programa en modo aplicación:
+</br>
 `npm run tauri dev`
 </br>
 Para correr el programa en modo navegador:
+</br>
 `npm run dev`
