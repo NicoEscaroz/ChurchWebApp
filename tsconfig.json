@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowJs": true, // Allow JS files in the project
+    "checkJs": false, // Skip type-checking for JS files
+    "jsx": "react-jsx", // Use React JSX in .tsx files
+    "module": "ESNext", // ES module system
+    "target": "ESNext", // Target modern JavaScript
+    "moduleResolution": "node",
+    "esModuleInterop": true, // Ensure compatibility with commonjs
+    "skipLibCheck": true, // Skip type checks for libraries
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"]
+    }
+  },
+  "include": ["src/**/*"], // Ensure it covers all JS/TS files in src
+  "exclude": ["node_modules"]
+}
