@@ -26,15 +26,14 @@ Para correr el programa en modo navegador:
 `npm run dev`
 </br>
 ### Backend
-</br>
 Asegurate que estás en la carpeta CWA: 
 </br>
-``` cd .. ``` (si es que estás en la carpeta frontend)
+`cd ..` (si es que estás en la carpeta frontend)
 </br>
 Para instalar dependencias:
 </br>
-```npm install```
+`npm install`
 </br>
 Para correr el servidor:
 </br>
-``` npm start ```
+`npm start`
