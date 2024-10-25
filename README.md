@@ -10,8 +10,9 @@ Esta aplicación será web, por lo que usaremos un stack MERN. Planeamos usar Mo
 
 ## Commands
 ### Frontend
+Para acceder a la carpeta:
 ``` cd frontend ```
-<br>
+</br>
 Para instalar dependencias:
 </br>
 `npm install`
@@ -26,11 +27,13 @@ Para correr el programa en modo navegador:
 </br>
 ### Backend
 </br>
-Asegurate que estás en la carpeta CWA ``` cd .. ``` si es que estás en la carpeta frontend
+Asegurate que estás en la carpeta CWA: 
+</br>
+``` cd .. ``` (si es que estás en la carpeta frontend)
 </br>
 Para instalar dependencias:
 </br>
-`npm install`
+```npm install```
 </br>
 Para correr el servidor:
 </br>
