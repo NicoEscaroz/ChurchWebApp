@@ -1,0 +1,31 @@
+{
+  "name": "churchwebapp",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@radix-ui/react-label": "^2.1.0",
+    "@tabler/icons-react": "^3.19.0",
+    "@tauri-apps/api": ">=2.0.0",
+    "@tauri-apps/plugin-shell": ">=2.0.0",
+    "churchwebapp": "file:",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.11.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.5.3"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0",
+    "@types/node": "^22.7.5",
+    "@vitejs/plugin-react": "^4.2.1",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.3.1"
+  }
+}
