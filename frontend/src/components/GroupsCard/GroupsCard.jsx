@@ -15,16 +15,25 @@ const GroupsCard = () => {
       </div>
       <div className="groups">
         <div className="groups-item">
-          <h2>Grupo1</h2>
-          <MdArrowForwardIos />
+          <h1>Comunidad de fe</h1>
+          <h2>Tomar asistencia</h2>
+          <div className="arrow">
+            <MdArrowForwardIos />
+          </div>
         </div>
         <div className="groups-item">
-          <h2>Grupo2</h2>
-          <MdArrowForwardIos />
+          <h1>Conexión cristiana</h1>
+          <h2>Tomar asistencia</h2>
+          <div className="arrow">
+            <MdArrowForwardIos />
+          </div>
         </div>
         <div className="groups-item">
-          <h2>Grupo3</h2>
-          <MdArrowForwardIos />
+          <h1>Unidos en Oración</h1>
+          <h2>Tomar asistencia</h2>
+          <div className="arrow">
+            <MdArrowForwardIos />
+          </div>
         </div>
       </div>
     </div>

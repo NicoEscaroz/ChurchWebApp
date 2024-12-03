@@ -15,12 +15,22 @@ const EventsCard = () => {
       </div>
       <div className="events">
         <div className="event-item">
-          <h2>Evento1</h2>
-          <MdArrowForwardIos />
+          <div className="eventInfo">
+            <h1>Concierto de Música Cristiana</h1>
+            <h2>Participantes</h2>
+          </div>
+          <div className="arrow">
+            <MdArrowForwardIos />
+          </div>
         </div>
         <div className="event-item">
-          <h2>Evento2</h2>
-          <MdArrowForwardIos />
+          <div className="eventInfo">
+            <h1>Retiro Espiritual</h1>
+            <h2>Participantes</h2>
+          </div>
+          <div className="arrow">
+            <MdArrowForwardIos />
+          </div>
         </div>
       </div>
     </div>

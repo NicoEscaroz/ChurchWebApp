@@ -20,18 +20,28 @@
 
 .events {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
-  gap: 50px;
+  gap: 25px;
+  padding-top: 20px;
 }
 
 .event-item {
   display: flex;
   align-items: center;
-  height: 50px;
+  padding-left: 5px;
+  height: 80px;
   font-size: 1rem;
   color: #374151;
   cursor: pointer;
+  gap: 10px;
+  border: 1px solid #c0c1c3;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.event-item h1 {
+  font-weight: bold;
 }
 
 .cardInfo .icon-box-event {
@@ -43,4 +53,16 @@
   justify-content: center;
   border-radius: 8px;
   color: white;
+}
+
+.arrow {
+  background-color: rgb(118, 155, 237);
+  height: 100%;
+  width: 30px;
+  color: rgb(37, 99, 235);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
 }
