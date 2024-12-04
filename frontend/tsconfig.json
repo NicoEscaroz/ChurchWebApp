@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "outDir": "./dist", // Output directory for compiled files
     "allowJs": true, // Allow JS files in the project
     "checkJs": false, // Skip type-checking for JS files
     "jsx": "react-jsx", // Use React JSX in .tsx files
@@ -14,5 +15,5 @@
     }
   },
   "include": ["src/**/*"], // Ensure it covers all JS/TS files in src
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "dist"] // Exclude node_modules and dist
 }

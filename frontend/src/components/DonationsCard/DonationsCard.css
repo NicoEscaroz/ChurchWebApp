@@ -1,0 +1,27 @@
+.donations-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.cardInfo .icon-box-money {
+  background-color: #fcc100;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: white;
+}
+
+.cardMoreInfo {
+  margin-left: auto;
+  color: #007bff;
+  cursor: pointer;
+  font-weight: 400;
+}
